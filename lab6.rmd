@@ -1,0 +1,23 @@
+---
+title: "lab6"
+author: "Poorvi Acharya"
+date: "March 8, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r eval = FALSE}
+cd lab6
+mkdir demo-repo 
+git init
+echo "# Demo Repo" >> README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/username/demo-repo.git
+git remote -v
+
+```
+
